@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <tabs
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/tabs"
+        size="L">
+        <items jcr:primaryType="nt:unstructured">
+            <tab1
+                granite:rel="aem-assets-metadata-form-tab"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Basic"
+                sling:resourceType="granite/ui/components/coral/foundation/container"
+                listOrder="0">
+                <items jcr:primaryType="nt:unstructured">
+                    <col2
+                        granite:rel="aem-assets-metadata-form-column"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        listOrder="1">
+                        <items
+                            cq:lastReplicated="{Date}2022-04-01T15:48:20.171+08:00"
+                            cq:lastReplicatedBy="devteam"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured">
+                            <_x0031_535505948199
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/gui/coral/components/admin/schemaforms/formbuilder/sectionfield"
+                                fieldLabel="Alt text multi languages">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="section"/>
+                            </_x0031_535505948199>
+                            <_x0031_535505982981
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="English Alt Text"
+                                name="./jcr:content/metadata/en_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535505982981>
+                            <_x0031_535506099086
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Chinese Alt Text"
+                                name="./jcr:content/metadata/zh_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506099086>
+                            <_x0031_535506180332
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="French Alt Text"
+                                name="./jcr:content/metadata/fr_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506180332>
+                            <_x0031_535506182712
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="German Alt Text"
+                                name="./jcr:content/metadata/de_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506182712>
+                            <_x0031_535506178302
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Spanish Alt Text"
+                                name="./jcr:content/metadata/es_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506178302>
+                            <_x0031_535506176191
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Korean Alt Text"
+                                name="./jcr:content/metadata/ko_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506176191>
+                            <_x0031_535506173864
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Japanese Alt Text"
+                                name="./jcr:content/metadata/ja_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_535506173864>
+                            <_x0031_5355366888561
+                                cq:lastReplicated="{Date}2022-04-01T15:48:49.883+08:00"
+                                cq:lastReplicatedBy="devteam"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Bahasa Indonesia Alt Text"
+                                name="./jcr:content/metadata/id_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_5355366888561>
+                            <_x0031_5355366888562
+                                cq:lastReplicated="{Date}2022-04-01T15:48:54.173+08:00"
+                                cq:lastReplicatedBy="devteam"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Vietnamese Alt Text"
+                                name="./jcr:content/metadata/vi_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_5355366888562>
+                            <_x0031_5355366888555
+                                cq:lastReplicated="{Date}2023-07-19T14:56:40.848+08:00"
+                                cq:lastReplicatedBy="devteam"
+                                cq:lastReplicationAction="Activate"
+                                jcr:mixinTypes="[cq:ReplicationStatus]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                fieldLabel="Thai Alt Text"
+                                name="./jcr:content/metadata/th_alt_text"
+                                renderReadOnly="true">
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    metaType="text"/>
+                            </_x0031_5355366888555>
+                        </items>
+                    </col2>
+                </items>
+            </tab1>
+        </items>
+    </tabs>
+</jcr:root>
